@@ -10,8 +10,22 @@
 
 @interface JJTextView : UITextView
 
+
+/**
+ 占位文字lable
+ */
 @property(nonatomic , copy) NSString* placeHolderText;
 
+
+/**
+ 最大文字输入量
+ */
 @property(nonatomic , assign) NSInteger  maxTextCount;
+
+
+/**
+ 是否显示文字统计
+ */
+@property(nonatomic , assign) BOOL  showTextCount;
 
 @end

@@ -27,14 +27,18 @@
     JJTextView* textView = [[JJTextView alloc]init];
     [self.view addSubview:textView];
     
+    
+    
+    
+    
+    
     //布局,
     [textView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(100);
         make.left.equalTo(self.view).offset(8);
-        make.right.equalTo(self.view).offset(-10);
+        make.right.equalTo(self.view).offset(-8);
         make.height.mas_offset(300);
     }];
-    
     textView.backgroundColor = [UIColor yellowColor];
     
     //设置最大的文字输入字数,默认是300字
@@ -42,6 +46,9 @@
     
     //设置占位文字,默认是 "请输入你的想法"
     //textView.placeHolderText = @"这一刻,你在想什么";
+    
+    //设置是否需要显示文字统计,默认显示,当不现实文字统计lable时候,textView可以输入任意多的文字
+    //textView.showTextCount = NO;
 }
 
 

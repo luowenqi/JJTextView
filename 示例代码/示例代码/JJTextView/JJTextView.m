@@ -117,5 +117,13 @@
     self.placeHolderLable.text = placeHolderText;
 }
 
+-(void)setShowTextCount:(BOOL)showTextCount{
+    _showTextCount = !showTextCount;
+    self.textCountLable.hidden = _showTextCount;
+    if (_showTextCount) {
+        self.maxTextCount = INT64_MAX;
+    }
+}
+
 
 @end
