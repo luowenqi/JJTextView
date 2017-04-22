@@ -18,7 +18,8 @@ JJTextView* textView = [[JJTextView alloc]init];
 ## 截图
 ![image](https://github.com/luowenqi/JJTextView/blob/master/示例代码/示例代码/截图/QQ20170422-171349.png)
 
-![image](https://github.com/luowenqi/JJTextView/blob/master/示例代码/示例代码/截图/QQ20170422-171753.pngo)
+##截图
+![image](https://github.com/luowenqi/JJTextView/blob/master/示例代码/示例代码/截图/QQ20170422-171753.png)
 
 
 
